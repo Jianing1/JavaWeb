@@ -1,0 +1,254 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	list-style: none;
+}
+
+.all {
+	width: 1330px;
+	margin: 10px auto;
+	height: 1000px;
+}
+
+.banner {
+	width: 1330px;
+	height: 100px;
+	background-color: #323a45;
+}
+
+.banner_1 {
+	font-size: 36px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
+	line-height: 100px;
+	text-decoration: none;
+	font-weight: bolder;
+	padding-left: 80px;
+}
+
+.banner_1 span {
+	font-size: 26px;
+	color: #00b896;
+	font-family: "Comic Sans MS", cursive;
+	font-style: italic;
+	padding-left: 20px;
+}
+
+.banner img {
+	height: 40px;
+}
+
+.banner_bottom {
+	width: 1330px;
+	height: 5px;
+	background-color: #00b896;
+}
+
+.banner_ul {
+	width: 650px;
+	height: 100px;
+	float: right;
+}
+
+.banner ul li {
+	float: left;
+	line-height: 100px;
+	list-style: none;
+	text-align: center;
+	padding: 0 15px;
+}
+
+.banner ul li a {
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "方正粗体";
+	color: #FFF;
+	width: 100px;
+	height: 100px;
+	display: block;
+}
+
+.banner_ul ul li a:hover {
+	background-color: #00b896;
+}
+
+.banner_left a:hover {
+	color: #FC0;
+}
+
+.banner_ul4 a:link {
+	background-color: #00b896;
+}
+
+.top2 {
+	position: fixed;
+	right: 9px;
+	bottom: 59px;
+	z-index: 50;
+}
+
+.activity {
+	width: 1000px;
+	height: 800px;
+	margin: 0 auto;
+}
+
+.activity h2 {
+	font-size: 24px;
+	font-family: "宋体";
+	color: #00B896;
+	text-align: center;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #00B896;
+	width: 400px;
+	margin: 20px auto;
+}
+
+.zimu {
+	font-size: 16px;
+	font-family: "方正粗体";
+	color: #F00;
+}
+
+.tab {
+	width: 1000px;
+	height: 700px;
+	margin-top: 80px;
+}
+
+table {
+	width: 400px;
+	height: 40px;
+	margin: 0 auto;
+	border-collapse: separate;
+}
+
+.tab table td {
+	width: 200px;
+	border-bottom: 1px solid #E8E8E8;
+	color: #535353;
+}
+
+.tab table tr {
+	height: 60px;
+}
+
+.tab table td input {
+	height: 30px;
+	border: 1px solid #00B896;
+	padding-left: 10px;
+}
+
+.tab table td select {
+	height: 30px;
+	border: 1px solid #00B896;
+	padding-left: 10px;
+}
+
+.tab table .one {
+	text-align: left;
+	border-left: 1px solid #E8E8E8;
+}
+
+.tab table .two {
+	padding-left: 10px;
+}
+
+.tab table .one .one1 {
+	border-left: 2px solid #61a301;
+	padding-left: 20px;
+	margin-left: -1px;
+}
+
+.tab table .one .one2 {
+	border-left: 2px solid #f50149;
+	padding-left: 20px;
+	margin-left: -1px;
+}
+
+.tab table .one .one3 {
+	border-left: 2px solid #995f91;
+	padding-left: 20px;
+	margin-left: -1px;
+}
+
+.tab table .one .one4 {
+	border-left: 2px solid #ffb409;
+	padding-left: 20px;
+	margin-left: -1px;
+}
+
+.tab table .one .one6 {
+	border-left: 2px solid #00B896;
+	padding-left: 20px;
+	margin-left: -1px;
+}
+
+.tab table .sub input {
+	width: 60px;
+	margin: 0 auto;
+	text-align: center;
+	padding-left: 0;
+	background-color: #FFF;
+}
+
+.tab table .sub {
+	padding-left: 200px;
+}
+
+.bottom_top {
+	width: 1330px;
+	height: 40px;
+	margin-top: 200px;
+}
+
+.bottom_top img {
+	width: 50px;
+	height: 40px;
+	margin: 0 auto;
+	display: block;
+}
+
+.bottom {
+	width: 1330px;
+	height: 300px;
+	background-color: #46B39E;
+	padding-top: 40px;
+}
+
+.bottom_icon {
+	width: 300px;
+	height: 50px;
+	margin: 40px 0;
+	margin-left: 530px;
+	margin-bottom: 60px;
+}
+
+.bottom_icon img {
+	margin: 0 10px;
+}
+
+.bottom1 {
+	width: 1330px;
+	height: 50px;
+	background-color: #323A45;
+}
+
+.hr2 {
+	height: 1px;
+	background-color: #E8E8E8;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.banquan {
+	text-align: center;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #E8E8E8;
+	margin: 20px auto;
+}

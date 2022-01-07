@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+h2 {
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	font-family: "宋体"
+}
+
+.curr_table th {
+	background-color: #96C7ED;
+	color: #000000
+}
+
+.curr_table, .curr_table th, .curr_table td {
+	font-size: 0.95em;
+	text-align: center;
+	padding: 4px;
+	border-collapse: collapse;
+}
+
+.curr_table th, .curr_table td {
+	border: 1px solid #73b4e7;
+	border-width: 1px 0 1px 0;
+	border: 2px inset #ffffff;
+}
+
+.curr_table tr {
+	border: 1px solid #ffffff;
+}
+
+.curr_table tr:nth-child(odd) {
+	background-color: #dcecf9;
+}
+
+.curr_table tr:nth-child(even) {
+	background-color: #ffffff;
+}
